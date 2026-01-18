@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Examen Civique Réussite – Préparation Nationalité & Titre de Séjour</title>
+  <meta name="description" content="Entraînez-vous au civisme en France : QCM, examens blancs, corrections. Préparation pour nationalité française et titre de séjour." />
+  <meta name="theme-color" content="#0b3d91" />
+  <style>
+    :root{
+      --blue:#0b3d91;
+      --red:#c8102e;
+      --green:#1f8a3b;
+      --ink:#0b1220;
+      --muted:#5b6475;
+      --bg:#0b1b3a;
+      --card:#ffffff;
+      --border:#e7eaf0;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--ink);
+      background: #f6f7fb;
+      line-height:1.5;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+    header{
+      background: radial-gradient(1200px 600px at 20% 20%, #2f62ff33, transparent 60%),
+                  radial-gradient(900px 500px at 90% 30%, #c8102e2b, transparent 55%),
+                  linear-gradient(180deg, #07132a, #0b1b3a);
+      color:#fff;
+      padding: 28px 0 54px;
+      position:relative;
+      overflow:hidden;
+    }
+    .topbar{
+      display:flex;align-items:center;justify-content:space-between;gap:12px;
+      padding: 10px 0 18px;
+    }
+    .brand{
+      display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.2px
+    }
+    .logo{
+      width:42px;height:42px;border-radius:12px;
+      background: linear-gradient(135deg, var(--blue), #1d4ed8 55%, var(--red));
+      display:grid;place-items:center;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+      border:1px solid rgba(255,255,255,.2);
+      font-weight:900;
+    }
+    .pill{
+      display:inline-flex;gap:8px;align-items:center;
+      background: rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.18);
+      padding:8px 12px;border-radius:999px;
+      font-size:14px;color:#fff;text-decoration:none;
+    }
+    .hero{
+      display:grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap:28px;
+      align-items:center;
+      margin-top:10px;
+    }
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} }
+    h1{font-size:42px;line-height:1.1;margin: 8px 0 12px}
+    @media (max-width:520px){ h1{font-size:34px} }
+    .sub{color: rgba(255,255,255,.84);font-size:18px;max-width:60ch}
+    .ctaRow{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:700;
+      border:1px solid rgba(255,255,255,.2);
+    }
+    .btn.primary{
+      background: linear-gradient(90deg, var(--green), #22c55e);
+      color:#0b1220;border:none;
+      box-shadow: 0 10px 30px rgba(34,197,94,.25);
+    }
+    .btn.secondary{background: rgba(255,255,255,.10);color:#fff}
+    .card{
+      background: rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:18px;
+      padding:18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    }
+    .badge{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:10px 12px;border-radius:14px;
+      background: rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      margin: 6px 6px 0 0;
+      font-size:14px;
+    }
+    .flag{
+      width:18px;height:12px;border-radius:2px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr 1fr;
+      border:1px solid rgba(255,255,255,.2)
+    }
+    .flag span:nth-child(1){background:var(--blue)}
+    .flag span:nth-child(2){background:#fff}
+    .flag span:nth-child(3){background:var(--red)}
+    main{padding: 26px 0 40px}
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:14px;
+      margin-top:-26px;
+    }
+    @media (max-width:900px){ .grid{grid-template-columns:1fr} }
+    .feature{
+      background: var(--card);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:16px;
+      box-shadow: 0 8px 26px rgba(15,23,42,.06);
+    }
+    .feature h3{margin:8px 0 6px;font-size:18px}
+    .muted{color:var(--muted)}
+    .section{margin-top:26px}
+    .section h2{font-size:26px;margin:0 0 8px}
+    .twoCol{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    @media (max-width:900px){ .twoCol{grid-template-columns:1fr} }
+    .whiteCard{
+      background: var(--card);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:16px;
+      box-shadow: 0 8px 26px rgba(15,23,42,.06);
+    }
+    ul{margin:10px 0 0;padding-left:18px}
+    footer{
+      background:#0b1220;color:#cbd5e1;
+      padding: 22px 0;
+      margin-top:24px;
+    }
+    footer a{color:#e2e8f0}
+    .small{font-size:13px;color:#94a3b8}
+    .storeRow{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+    .store{
+      background:#0b1220;color:#fff;text-decoration:none;
+      padding:10px 12px;border-radius:12px;
+      border:1px solid rgba(255,255,255,.12);
+      display:inline-flex;align-items:center;gap:10px;
+      font-weight:700;font-size:14px;
+    }
+    .dot{width:10px;height:10px;border-radius:999px;background:var(--green);box-shadow:0 0 0 6px rgba(34,197,94,.18)}
+    .kpi{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .kpi .chip{background:#fff;border:1px solid var(--border);border-radius:999px;padding:8px 10px;font-size:13px}
+    .note{font-size:13px;color:var(--muted);margin-top:8px}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">FR</div>
+          <div>
+            <div style="font-size:16px;">Examen Civique <span style="color:#22c55e;">Réussite</span></div>
+            <div class="small" style="color:rgba(255,255,255,.75)">Préparation QCM – Nationalité & Titre de séjour</div>
+          </div>
+        </div>
+        <a class="pill" href="#download">
+          <span class="dot" aria-hidden="true"></span>
+          Télécharger
+        </a>
+      </div>
+
+      <div class="hero">
+        <div>
+          <h1>Réussissez l’Examen Civique en France</h1>
+          <p class="sub">
+            Entraînez-vous avec des QCM simples (A2–B1), des examens blancs et des corrections.
+            Idéal pour la <strong>nationalité française</strong> et le <strong>titre de séjour</strong>.
+          </p>
+
+          <div class="ctaRow" id="download">
+            <a class="btn primary" href="https://play.google.com/store" target="_blank" rel="noopener">Google Play (bientôt)</a>
+            <a class="btn secondary" href="https://www.apple.com/app-store/" target="_blank" rel="noopener">App Store (bientôt)</a>
+            <a class="btn secondary" href="#contact">Contact</a>
+          </div>
+
+          <div class="kpi">
+            <div class="chip">✅ 500 questions (QCM)</div>
+            <div class="chip">⏱️ Examens blancs</div>
+            <div class="chip">📈 Suivi des progrès</div>
+            <div class="chip">🇫🇷 100% en français</div>
+          </div>
+
+          <p class="note">Astuce : ajoutez ici vos vrais liens Play Store / App Store dès que l’app est publiée.</p>
+        </div>
+
+        <div class="card">
+          <div class="badge">
+            <div class="flag" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div><strong>Objectif :</strong> Nationalité • Carte de résident • Entretien Préfecture</div>
+          </div>
+          <div class="badge">📘 Valeurs & Laïcité</div>
+          <div class="badge">🏛️ Institutions</div>
+          <div class="badge">📜 Droits & devoirs</div>
+          <div class="badge">🧠 Histoire & symboles</div>
+
+          <div class="storeRow" style="margin-top:14px;">
+            <a class="store" href="https://play.google.com/store" target="_blank" rel="noopener">▶︎ Google Play</a>
+            <a class="store" href="https://www.apple.com/app-store/" target="_blank" rel="noopener"> App Store</a>
+          </div>
+
+          <div class="small" style="margin-top:12px;color:rgba(255,255,255,.75)">
+            Version gratuite avec publicité + option premium.
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="grid">
+        <div class="feature">
+          <div style="font-size:22px;">📝</div>
+          <h3>QCM officiels (style examen)</h3>
+          <div class="muted">Questions courtes, choix A–D, correction immédiate.</div>
+        </div>
+        <div class="feature">
+          <div style="font-size:22px;">🎯</div>
+          <h3>Examens blancs</h3>
+          <div class="muted">Simulation réelle : score, erreurs, révisions ciblées.</div>
+        </div>
+        <div class="feature">
+          <div style="font-size:22px;">📍</div>
+          <h3>Parcours simple</h3>
+          <div class="muted">Niveau A2–B1 : vocabulaire accessible, apprentissage rapide.</div>
+        </div>
+      </div>
+
+      <div class="section twoCol">
+        <div class="whiteCard">
+          <h2>Ce que vous allez apprendre</h2>
+          <ul>
+            <li>Valeurs de la République & laïcité</li>
+            <li>Institutions (Président, Gouvernement, Parlement, mairie, préfecture)</li>
+            <li>Droits et devoirs (école, impôts, égalité, respect de la loi)</li>
+            <li>Symboles (drapeau, Marseillaise, 14 juillet)</li>
+            <li>Repères historiques essentiels</li>
+          </ul>
+        </div>
+
+        <div class="whiteCard">
+          <h2>Pour qui ?</h2>
+          <ul>
+            <li>Demande de nationalité française</li>
+            <li>Carte de résident / titre de séjour</li>
+            <li>Préparation entretien en préfecture</li>
+            <li>Personnes qui veulent comprendre la vie civique en France</li>
+          </ul>
+          <div class="note">⚠️ Important : la réussite dépend aussi de votre dossier et de votre niveau de français.</div>
+        </div>
+      </div>
+
+      <div class="section whiteCard" id="contact">
+        <h2>Contact</h2>
+        <p class="muted" style="margin:8px 0 0;">
+          Une question, un partenariat, une correction ? Écrivez-nous :
+          <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+        </p>
+      </div>
+
+      <div class="section whiteCard" id="privacy">
+        <h2>Confidentialité (Privacy)</h2>
+        <p class="muted" style="margin:8px 0 0;">
+          Si votre app utilise des publicités (AdMob, etc.), vous aurez besoin d’une page de confidentialité.
+          Vous pouvez remplacer ce texte par votre politique complète.
+        </p>
+        <ul>
+          <li>Données possibles : identifiants publicitaires, analytics, crash logs.</li>
+          <li>But : publicité, statistiques, amélioration du service.</li>
+          <li>Vous pouvez demander la suppression de certaines données : <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+        <div>
+          <strong>Examen Civique Réussite</strong> <span class="small">© <span id="y"></span></span>
+        </div>
+        <div class="small">
+          <a href="#privacy">Politique de confidentialité</a> •
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="small" style="margin-top:10px;">
+        Ce site est une page d’information. Il ne remplace pas les informations officielles.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
