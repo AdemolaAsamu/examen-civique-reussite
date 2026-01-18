@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suppression de compte – Examen Civique Réussite</title>
+  <meta name="description" content="Demande de suppression de compte et de données – Examen Civique Réussite." />
+  <style>
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:#f6f7fb;
+      color:#0b1220;
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:900px;
+      margin:0 auto;
+      padding:24px 18px 60px;
+    }
+    header{
+      background:#0b1b3a;
+      color:#fff;
+      padding:24px 0;
+    }
+    h1{font-size:28px;margin:0}
+    h2{font-size:20px;margin-top:32px}
+    p{margin:12px 0}
+    ul{margin:10px 0 0;padding-left:18px}
+    .card{
+      background:#fff;
+      border:1px solid #e7eaf0;
+      border-radius:16px;
+      padding:18px;
+      box-shadow:0 6px 20px rgba(15,23,42,.06);
+      margin-top:18px;
+    }
+    footer{
+      margin-top:40px;
+      font-size:13px;
+      color:#5b6475;
+    }
+    a{color:#1f8a3b;text-decoration:none;font-weight:600}
+    a:hover{text-decoration:underline}
+    .notice{
+      background:#ecfeff;
+      border:1px solid #bae6fd;
+      border-radius:14px;
+      padding:14px;
+      margin-top:14px;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Suppression de compte et des données</h1>
+    <p>Application : <strong>Examen Civique Réussite</strong></p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="card">
+    <p>
+      Cette page explique comment demander la suppression de votre compte
+      et des données associées à l’application <strong>Examen Civique Réussite</strong>.
+    </p>
+  </div>
+
+  <h2>1. Avez-vous un compte ?</h2>
+  <div class="card">
+    <p>
+      L’application <strong>Examen Civique Réussite</strong> ne nécessite pas
+      obligatoirement la création d’un compte pour être utilisée.
+    </p>
+    <p>
+      Si vous avez utilisé des fonctionnalités impliquant des données sauvegardées
+      (progression, scores, préférences), vous pouvez demander leur suppression.
+    </p>
+  </div>
+
+  <h2>2. Comment demander la suppression</h2>
+  <div class="card">
+    <p>
+      Pour demander la suppression de votre compte et/ou de vos données :
+    </p>
+    <ul>
+      <li>Envoyez un email à l’adresse suivante :</li>
+    </ul>
+    <p>
+      📧 <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+    </p>
+    <p>
+      Merci d’indiquer dans votre message :
+    </p>
+    <ul>
+      <li>Le nom de l’application : <strong>Examen Civique Réussite</strong></li>
+      <li>Votre type d’appareil (Android ou iOS)</li>
+      <li>Une description de la demande (suppression du compte / des données)</li>
+    </ul>
+  </div>
+
+  <h2>3. Données supprimées</h2>
+  <div class="card">
+    <p>Après traitement de votre demande, les données suivantes seront supprimées :</p>
+    <ul>
+      <li>Données de progression et de résultats</li>
+      <li>Préférences utilisateur</li>
+      <li>Données techniques associées à l’utilisateur, lorsque cela est possible</li>
+    </ul>
+  </div>
+
+  <h2>4. Données conservées</h2>
+  <div class="card">
+    <p>
+      Certaines données peuvent être conservées temporairement si la loi l’exige,
+      notamment :
+    </p>
+    <ul>
+      <li>Données anonymisées à des fins statistiques</li>
+      <li>Données nécessaires au respect d’obligations légales</li>
+    </ul>
+  </div>
+
+  <h2>5. Délai de traitement</h2>
+  <div class="card">
+    <p>
+      Les demandes de suppression sont traitées dans un délai maximum de
+      <strong>30 jours</strong>.
+    </p>
+  </div>
+
+  <div class="notice">
+    ⚠️ Important : la suppression des données est définitive et entraîne
+    la perte de la progression et des résultats.
+  </div>
+
+  <h2>6. Contact</h2>
+  <div class="card">
+    <p>
+      Pour toute question concernant la suppression de compte ou des données :
+      <br />
+      📧 <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+    </p>
+  </div>
+
+  <footer>
+    <p>
+      Dernière mise à jour : <strong>2026</strong><br />
+      © Examen Civique Réussite
+    </p>
+  </footer>
+
+</main>
+
+</body>
+</html>
